@@ -14,7 +14,7 @@ const PieChart = ({ title, value, series, colors }: PieChartProps) => {
         bgcolor="#fcfcfc"
         flexDirection="row"
         justifyContent="space-between"
-        alignItem="center"
+        alignItems="center"
         pl={3.5}
         py={2}
         gap={2}
@@ -32,7 +32,7 @@ const PieChart = ({ title, value, series, colors }: PieChartProps) => {
 
         <ReactApexChart
             options={{
-                chart: { type: 'dount'},
+                chart: { type: 'donut'},
                 colors,
                 legend: { show: false },
                 dataLabels: { enabled: false },
