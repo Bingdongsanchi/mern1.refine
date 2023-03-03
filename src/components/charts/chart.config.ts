@@ -14,7 +14,7 @@ export const TotalRevenueSeries = [
 export const TotalRevenueOptions: ApexOptions = {
   chart: {
     type: 'bar',
-    toolbar: {
+    toolbar: { 
       show: false,
     },
   },
@@ -22,7 +22,7 @@ export const TotalRevenueOptions: ApexOptions = {
   plotOptions: {
     bar: {
       borderRadius: 4,
-      horizontal: false,
+      horizontal: false, 
       columnWidth: '55%',
     },
   },
