@@ -1,8 +1,18 @@
 import React from 'react'
-
+import { Box, Stack, Typography } from '@pankod/refine-mui'
+import { propertyReferralsInfo } from 'constants/index'
 const PropertyReferrals = () => {
   return (
-    <div>PropertyReferrals</div>
+    <Box 
+    p={4}
+    flex={1}
+    bgcolor="#fcfcfc"
+    id="chart"
+    display="flex"
+    flexDirection="column"
+    borderRadius="15px">
+
+    </Box>
   )
 }
 
