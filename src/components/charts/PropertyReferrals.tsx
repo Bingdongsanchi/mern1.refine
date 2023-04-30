@@ -13,7 +13,7 @@ const PropertyReferrals = () => {
     borderRadius="15px">
     <Typography fontSize={18} fontWeight=
         {600} color="#11142d">
-            Total Revenue
+            Property Referrals
         </Typography>
 
     </Box>

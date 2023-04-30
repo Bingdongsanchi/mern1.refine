@@ -13,7 +13,6 @@ import {
 import {
   AccountCircleOutlined,
   ChatBubbleOutline,
-  Home,
   PeopleAltOutlined,
   StarOutlineRounded,
   VillaOutlined,
@@ -35,7 +34,7 @@ import {
   AllProperties,
   CreateProperty,
   AgentProfile,
-  EditProperty, } from "pages/login";
+  EditProperty, } from "pages";
 
 import { CredentialResponse } from "interfaces/google";
 import { parseJwt } from "utils/parse-jwt";
