@@ -28,6 +28,13 @@ const ProgressBar = ({title, percentage, color}
       borderRadius={1}
       bgcolor="#e4e8ef"
       >
+        <Box
+                width={`${percentage}%`}
+                bgcolor={color}
+                position="absolute"
+                height="100%"
+                borderRadius={1}
+            />
 
       </Box>
     </Box>
