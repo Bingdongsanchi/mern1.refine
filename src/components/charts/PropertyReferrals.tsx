@@ -20,6 +20,16 @@ const ProgressBar = ({title, percentage, color}
                 {percentage}%
             </Typography>
       </Stack>
+      <Box
+      mt={2}
+      position="relative"
+      width="100%"
+      height="8px"
+      borderRadius={1}
+      bgcolor="#e4e8ef"
+      >
+
+      </Box>
     </Box>
 )
 
