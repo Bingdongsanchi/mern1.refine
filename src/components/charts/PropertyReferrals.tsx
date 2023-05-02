@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Stack, Typography } from '@pankod/refine-mui'
-import { propertyReferralsInfo } from 'constants/index';
+import { propertyReferralsInfo } from "constants/index";
 
 interface ProgressBarProps {
   title: string,
@@ -57,7 +57,9 @@ const PropertyReferrals = () => {
             Property Referrals
         </Typography>
         <Stack my="20px" direction="column" gap={4}>
-
+            {propertyReferralsInfo.map((bar) => (
+                    <ProgressBar key={bar.title} {...bar} />
+                ))}
         </Stack>
 
     </Box>
