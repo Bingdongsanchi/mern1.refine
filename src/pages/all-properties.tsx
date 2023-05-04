@@ -1,4 +1,13 @@
-import React from 'react'
+import { Add } from "@mui/icons-material";
+import { useTable } from "@refinedev/core";
+import {
+    Box,
+    Stack,
+    Typography,
+    TextField,
+    Select,
+    MenuItem,
+} from "@mui/material";
 
 const allProperties = () => {
   return (
