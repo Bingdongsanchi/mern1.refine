@@ -1,5 +1,5 @@
 import { Add } from "@mui/icons-material";
-import { useTable } from "@refinedev/core";
+import { useList } from '@pankod/refine-core'
 import {
     Box,
     Stack,
